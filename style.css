@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    width:100vw;
+    height: 100vh;
+}
+
+.container{
+    overflow: hidden;
+    width:425px;
+    height:650px;
+    background-color: #fff;
+    border-radius: 5%;
+    
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.summary p{
+    font-size: 1rem;
+    width:80%;
+    font-weight: 500;
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+}
+.summary h1{
+    color:hsl(223, 47%, 23%);
+    margin-bottom: 0;
+}
+.annual-plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(224, 23%, 55%);
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius:10px;
+    background-color:hsl(225, 100%, 98%);
+
+}
+.info{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    position:relative;
+    left:-2.5rem;
+
+}
+.text h2{
+    font-size:1.3rem; 
+    margin-bottom: 0px;
+}
+.text p{
+    color:hsl(224, 23%, 55%);
+    margin-top:10px;
+}
+.change{
+    text-decoration: underline;
+    color:rgb(77, 43, 215);
+}
+button{
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    border:none;
+    margin-top:15px;
+    transition: opacity .2s;
+}
+.btn1{
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 500;
+    font-size: .9rem;
+    color:#fff;
+}
+.btn2{
+    background-color:hsl(225, 100%, 98%);
+    margin-bottom:20px;
+    color:hsl(224, 23%, 55%);
+    font-size: .9rem;
+}
+
+button:hover{
+    opacity: .8;
+}
+ 
